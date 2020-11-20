@@ -7,4 +7,6 @@
 header
 {
 	background-color: #7451eb;
+	display: flex;
+	margin: auto;
 }
