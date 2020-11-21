@@ -1,7 +1,10 @@
 #BlocPage
 {
-    width: 900px;
+    width: 100%;
     margin: auto;
+    background-color: yellow;
+    margin: none;
+    padding: none;
 }
 
 header
@@ -9,4 +12,8 @@ header
 	background-color: #7451eb;
 	display: flex;
 	margin: auto;
+	 margin: none;
+    padding: none;
+    width: 100%;
+
 }
