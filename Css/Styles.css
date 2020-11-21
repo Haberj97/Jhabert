@@ -13,6 +13,9 @@ header
 	background-color: rgb(116,81,235);
 	width: 100%;
 	height: 350px;	
+	display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 header h1
