@@ -1,5 +1,12 @@
+@media(max-width: 800px)
+{
+	p{
+		color: red;
+	}
+}
+
 /* For Laptop and Fixe Computer */
-@media(min-width: 767px) 
+@media(min-width: 800px) 
 
 {
 
@@ -191,103 +198,6 @@
 	}
 	
 }
-@media(max-width: 767px)
-{
-		html, body 
-		{
-			margin : 0;
-			padding : 0;
-			height:100%;
-		}
-			#MainWrapper
-		{	
-			height:100%;
-			display: flex;
-			flex-direction: column;
-		}
-
-			/*Header Configuration*/
-	header
-		{
-			background-color: rgb(116,81,235);
-			width: 100%;
-			min-height:210px;
-			max-height: 230px;
-			color:#FFF;
-			overflow: hidden;
-			display: flex;
-			justify-content: center;
-	 		align-items: center;
-	 		padding: 0px;
-	 		margin: 0px;
-	 
-		}
 
 
-	#PrincipalTitle
-		{
-			margin-right: 15%;
-			height: auto;
-		}
-	header h1
-		{
-			margin : 0 0 0 0;
-			padding: 0% 0 0 5%;
-		}
-	header h2
-		{
-			margin : 0 0 0 0;
-			padding: 0 0 0 5%;
-		}
-	header p
-		{
-			font-weight: normal;
-			padding: 0 0 0 0;
-			margin : 10% 0 0% 0%;
-		}
-
-		/*Footer Configuration*/
-	footer
-		{
-			background: rgb(20,41,73);
-			width: 100%;
-			min-height:210px;
-			max-height: 230px;
-			color: #fff;
-			display: flex;
-			flex-direction: column;
-			align-items:center;
-			justify-content: center; 
-		}
-	footer h1 
-		{
-			font-size:1.3em;
-			margin: 0 0 0 0;
-		}
-
-	footer p 
-		{
-			font-size:0.8em;
-			margin: 0 0 2% 0;
-			padding: 0 0 0 0;
-		}
-
-	#Links 
-
-		{
-			margin: 0;
-			display: flex;
-		}
-
- 
-	footer aside 
-	{
-	    padding: 0 30% 0 0;
-	}
-
-	#FooterTitle
-	{
-	 padding: 0 20% 0 0;
-	}
-}
 
