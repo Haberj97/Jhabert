@@ -1,45 +1,44 @@
-/* Principals elements*/
-html, body {
+/*Principals elements*/
+html, body 
+{
 	margin : 0;
 	padding : 0;
 	height:100%;
 }
+#MainWrapper
+{
+	height:100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 
+}
 
-
-/* header Configuration*/
+/*Header Configuration*/
 header
 {
 	background-color: rgb(116,81,235);
 	width: 100%;
-	height: 350px;	
-	display: flex;
-    
-    align-items: flex-end;
+	height: 150px;
 }
 
-#HeaderBlock 
-{
-	
-	width: 1500px;
-	margin: auto;
-	display: flex;
-	
-}
-#Presentation
-{
-	
-	margin-left: 50px;
-	width: 300px;
-	height: 350px;
-}
 
+/*
 #Photo
 {
+	width: 262px;
+	height: 350px;
+}
+*/
 
-width: 262px;
-height: 350px;
-padding-left: 350px
+/* Contained configutation */
+
+#Contained
+{
+	background-color: red;
+	width: 100%;
+	flex: 1;
+	overflow: auto;
 }
 
 
@@ -47,32 +46,7 @@ padding-left: 350px
 /*Footer Configuration*/
 footer
 {
-	background: rgb(20,41,73); 
-	bottom:0;
-	width:100%;
-	padding-top:50px;
-	height:300px;
-	position:absolute;
-
-}
-#Contained
-{
-	width: 1500px;
-	height: 800px;
-	overflow: auto;
-	background-color: grey;
-	margin: auto;
-}
-footer h1
-{
-	color: white;
-	font-size: 2.3em;
-}
-#FooterBlock
-{
-	width: 1500px;
-	display: flex;
-	flex-direction: column;
-	margin: auto;
-	color: #FFF;
+	background: rgb(20,41,73);
+	width: 100%;
+	height: 150px;
 }
