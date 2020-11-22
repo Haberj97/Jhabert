@@ -53,6 +53,7 @@
 	#Contained
 		{
 			width: 100%;
+			flex:1;
 			height: auto;
 			min-height: 33%;
 			padding: 0px;
