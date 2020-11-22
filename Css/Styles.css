@@ -245,5 +245,49 @@
 			padding: 0 0 0 0;
 			margin : 10% 0 0% 0%;
 		}
+
+		/*Footer Configuration*/
+	footer
+		{
+			background: rgb(20,41,73);
+			width: 100%;
+			min-height:210px;
+			max-height: 230px;
+			color: #fff;
+			display: flex;
+			flex-direction: column;
+			align-items:center;
+			justify-content: center; 
+		}
+	footer h1 
+		{
+			font-size:1.3em;
+			margin: 0 0 0 0;
+		}
+
+	footer p 
+		{
+			font-size:0.8em;
+			margin: 0 0 2% 0;
+			padding: 0 0 0 0;
+		}
+
+	#Links 
+
+		{
+			margin: 0;
+			display: flex;
+		}
+
+ 
+	footer aside 
+	{
+	    padding: 0 30% 0 0;
+	}
+
+	#FooterTitle
+	{
+	 padding: 0 20% 0 0;
+	}
 }
 
