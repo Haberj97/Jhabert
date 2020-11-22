@@ -32,12 +32,6 @@ header
  justify-content: center;
  align-items: flex-end;
 }
-#PitureOfMe
-{
-	display: block;
-	height: 100%;
-	border: 0;
-}
 
 header h1,header h2 
 {
