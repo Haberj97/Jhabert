@@ -14,51 +14,66 @@ html, body
 
 }
 
+mark
+{
+	background-color: #39efa9;
+}
+
 /*Header Configuration*/
 header
 {
 	background-color: rgb(116,81,235);
 	width: 100%;
-	height: 200px;
+	height: 30%;
+	max-height: 200px;
 	color:#FFF;
 }
 #HeaderContained
 {
  height: 100%;
- margin: auto;
  overflow: hidden;
  display: flex;
  justify-content: center;
  align-items: flex-end;
+ padding: 0px;
+ margin: 0px;
 }
 
-header h1,header h2 
+
+#PrincipalTitle
 {
-	margin-left: 50px;
-	margin-right: 100px;
+	margin : 0px 0px 0px 0px;
+	padding: 0px 20% 0px 0%;
+	height: 100%
 }
+
 
 
 header h1
 {
-	font-size:2.3em;
-	margin-bottom: 1px;
-
+	font-size:1.5em;
+	margin : 0 0 0 0;
+	padding: 15% 0 0 5%;
+	
 }
 
 header h2
 {
-	margin-top: 1px;
-	font-size:1.8em;
+	
+	font-size:1.2em;
+	margin : 0 0 0 0;
+	padding: 0 0 0 5%;
+
+}
+header p
+{
+	font-size: 0.7em;
+	font-weight: normal;
+	padding: 0 0 0 0;
+	margin : 10% 0 0 0%;
+
 }
 
-/*
-Photo
-{
-	width: 262px;
-	height: 350px;
-}
-*/
 
 /* Contained configutation */
 
@@ -77,5 +92,30 @@ footer
 {
 	background: rgb(20,41,73);
 	width: 100%;
-	height: 200px;
+	height: 30%;
+	overflow: hidden;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+#Links 
+{
+	display: flex;
+}
+
+footer h1 
+{
+	font-size:1.3em;
+	margin : 0 0 0 0;
+	padding: 5% 0 0 0;
+}
+
+footer p 
+{
+	font-size:0.8em;
+	margin : 0 0 3% 0;
+	padding: 0 0 0 0;
 }
