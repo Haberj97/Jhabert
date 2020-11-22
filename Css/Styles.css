@@ -1,5 +1,5 @@
-/* all Screen */
-@media all 
+/* For Laptop and Fixe Computer */
+@media(min-width: 1388px) 
 
 {
 
@@ -191,3 +191,8 @@
 	}
 	
 }
+@media(max-width: 767px)
+{
+	
+}
+
