@@ -18,13 +18,12 @@ mark
 {
 	background-color: #39efa9;
 }
-img 
+
+.ResponsiveImg
 {
+	max-width : 100%;
+	height: auto;
 	display: block;
-	margin:0 0 0 0;
-	padding: 0 0 0 0;
-	height: 100%;
-	width: auto;
 }
 
 /*Header Configuration*/
@@ -34,25 +33,22 @@ header
 	width: 100%;
 	height: 30%;
 	color:#FFF;
-}
-#HeaderContained
-{
- height: 100%;
- overflow: hidden;
- display: flex;
- justify-content: center;
- align-items: flex-end;
- padding: 0px;
- margin: 0px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+ 	align-items: flex-end;
+ 	padding: 0px;
+ 	margin: 0px;
 }
 
 
 #PrincipalTitle
 {
 	margin : 0px 0px 0px 0px;
-	padding: 0px 20% 0px 0%;
+	padding: 0px 15% 0px 0%;
 	height: 100%
 }
+
 
 
 
@@ -86,7 +82,6 @@ header p
 
 #Contained
 {
-	background-color: red;
 	width: 100%;
 	flex:1;
 	min-height: 33%;
@@ -105,25 +100,38 @@ footer
 	color: #fff;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+
+	align-items:center;
+	
 
 }
-
-#Links 
-{
-	display: flex;
-}
-
 footer h1 
 {
 	font-size:1.3em;
-	margin : 0 0 0 0;
-	padding: 5% 0 0 0;
+	margin: 30% auto 0 auto;
 }
 
 footer p 
 {
 	font-size:0.8em;
-	margin : 0 0 3% 0;
+	margin: auto auto 2% auto;
 	padding: 0 0 0 0;
+}
+
+#Links 
+
+{
+	margin: auto;
+	display: flex;
+}
+
+
+footer aside 
+{
+    padding: 0 51% 0 0;
+}
+
+#FooterTitle
+{
+ padding: 0 28% 0 0;
 }
