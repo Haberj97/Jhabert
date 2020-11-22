@@ -53,9 +53,7 @@
 	#Contained
 		{
 			width: 100%;
-			flex:1;
 			height: auto;
-			min-height: 33%;
 			padding: 0px;
 			margin: 0px;
 		}
@@ -64,6 +62,7 @@
 			width: 100%;
 			height: auto;
 			display: flex;
+			flex:1;
 		}
 
 	.ItemsLogos
