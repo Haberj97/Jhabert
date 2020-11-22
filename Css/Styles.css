@@ -1,4 +1,4 @@
-/* Screen up to 1024px */
+/* all Screen */
 @media all 
 
 {
@@ -107,8 +107,9 @@
 		{
 			background-color: rgb(116,81,235);
 			width: 100%;
-			min-height: 30%;
-			max-height:250px;
+			height: auto;
+			min-height:30%;
+			max-height:33%;
 			color:#FFF;
 			overflow: hidden;
 			display: flex;
