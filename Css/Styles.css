@@ -32,7 +32,7 @@ header
 	background-color: rgb(116,81,235);
 	width: 100%;
 	height: 30%;
-	max-height:350px;
+	max-height:250px;
 	color:#FFF;
 	overflow: hidden;
 	display: flex;
@@ -98,7 +98,7 @@ footer
 	background: rgb(20,41,73);
 	width: 100%;
 	height: 30%;
-	max-height:350px; 
+	max-height:250px; 
 	overflow: hidden;
 	color: #fff;
 	display: flex;
