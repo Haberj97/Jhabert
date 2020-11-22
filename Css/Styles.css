@@ -33,7 +33,7 @@ header
 #PitureOfMe
 {
 	display: block;
-	height: 100%;
+	height: 25%;
 	border: 0;
 }
 
@@ -82,5 +82,5 @@ footer
 {
 	background: rgb(20,41,73);
 	width: 100%;
-	height: 33%;
+	height: 25%;
 }
