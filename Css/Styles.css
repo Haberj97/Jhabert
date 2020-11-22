@@ -71,7 +71,6 @@
 			font-weight: normal;
 			padding: 0 0 0 0;
 			margin : 10% 0 0 0%;
-
 		}
 
 	/* Contained configutation */
@@ -82,8 +81,58 @@
 			flex:1;
 			min-height: 33%;
 			overflow: auto;
+			padding: 0px;
+			margin: 0px;
+		}
+	.ContainedItems 
+		{
+			width: 100%;
+			height: 100%;
+			border : Solid 1px black;
+			display: flex;
 		}
 
+	.TestConf
+		{
+			border:solid 2px grey;
+			background-color: red;
+			width: 50%;
+			height: 100%;
+		}
+	.ItemsLogos
+		{
+			display: block;
+			height: 170px;
+			width: 170px;
+		}
+	.ContainedLogoStyleBloc
+		{
+			width: 30%;
+			height: 100%;
+			display: flex;
+			justify-content: center;
+	 		align-items: center;
+		}
+	.ContainedTextStyleBloc
+		{
+			width: 70%
+			height: 100%;
+		}
+	/* set opacity SB width */
+	::-webkit-scrollbar 
+		{
+ 			opacity: 0;
+		}
+	/* set opacity Track */
+	::-webkit-scrollbar-track
+		{
+  			opacity: 0;
+		}
+  	/* Handle */
+	::-webkit-scrollbar-thumb 
+		{
+  			opacity: 0;
+		}
 	/*Footer Configuration*/
 	footer
 		{
@@ -130,32 +179,3 @@
 	
 
 }
-
-/* Used to up font when screen-width is up to 1024px */ 
-@media all and (min-width: 1024px)
-{	
-	/*Header Modification */
-	header h1
-		{
-			font-size:2.5em;
-		}
-	header h2
-		{
-			font-size:2.2em;
-		}
-	header p
-		{
-			font-size: 1.7em;
-			font-weight: normal;
-		}
-	footer h1 
-		{
-			font-size:2.3em;
-
-		}
-	footer p 
-		{
-			font-size:1.8em;
-		}
-}
-
