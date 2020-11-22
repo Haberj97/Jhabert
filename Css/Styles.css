@@ -132,7 +132,7 @@
 }
 
 /* Used to up font when screen-width is up to 1024px */ 
-@media screen and (min-width: 1024px)
+@media all and (min-width: 1024px)
 {	
 	/*Header Modification */
 	header h1
