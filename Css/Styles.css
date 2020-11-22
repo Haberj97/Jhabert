@@ -205,5 +205,45 @@
 			display: flex;
 			flex-direction: column;
 		}
+
+			/*Header Configuration*/
+	header
+		{
+			background-color: rgb(116,81,235);
+			width: 100%;
+			min-height:210px;
+			max-height: 230px;
+			color:#FFF;
+			overflow: hidden;
+			display: flex;
+			justify-content: center;
+	 		align-items: center;
+	 		padding: 0px;
+	 		margin: 0px;
+	 
+		}
+
+
+	#PrincipalTitle
+		{
+			margin-right: 15%;
+			height: auto;
+		}
+	header h1
+		{
+			margin : 0 0 0 0;
+			padding: 0% 0 0 5%;
+		}
+	header h2
+		{
+			margin : 0 0 0 0;
+			padding: 0 0 0 5%;
+		}
+	header p
+		{
+			font-weight: normal;
+			padding: 0 0 0 0;
+			margin : 10% 0 0% 0%;
+		}
 }
 
