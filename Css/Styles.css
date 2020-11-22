@@ -152,8 +152,8 @@
 		{
 			background: rgb(20,41,73);
 			width: 100%;
-			min-height: 30%;
-			max-height: 250px;
+			min-height:210px;
+			max-height: 230px;
 			color: #fff;
 			display: flex;
 			flex-direction: column;
