@@ -15,7 +15,6 @@
 			height:100%;
 			display: flex;
 			flex-direction: column;
-			justify-content: space-between;
 		}
 	mark
 		{
@@ -34,7 +33,7 @@
 		{
 			background-color: rgb(116,81,235);
 			width: 100%;
-			height: 30%;
+			min-height: 30%;
 			max-height:250px;
 			color:#FFF;
 			overflow: hidden;
@@ -47,7 +46,7 @@
 		}
 
 
-		#PrincipalTitle
+	#PrincipalTitle
 		{
 			margin : 0px 0px 0px 0px;
 			padding: 0px 15% 0px 0%;
@@ -78,27 +77,17 @@
 	#Contained
 		{
 			width: 100%;
-			flex:1;
 			min-height: 33%;
-			overflow: auto;
 			padding: 0px;
 			margin: 0px;
 		}
 	.ContainedItems 
 		{
 			width: 100%;
-			height: 100%;
-			border : Solid 1px black;
+			height: 70%;
 			display: flex;
 		}
 
-	.TestConf
-		{
-			border:solid 2px grey;
-			background-color: red;
-			width: 50%;
-			height: 100%;
-		}
 	.ItemsLogos
 		{
 			display: block;
@@ -110,41 +99,37 @@
 			width: 30%;
 			height: 100%;
 			display: flex;
-			justify-content: center;
+			justify-content: flex-end;
 	 		align-items: center;
 		}
 	.ContainedTextStyleBloc
 		{
 			width: 70%
 			height: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			padding-left: 10%;
+			overflow: hidden;
 		}
-	/* set opacity SB width */
-	::-webkit-scrollbar 
-		{
- 			opacity: 0;
-		}
-	/* set opacity Track */
-	::-webkit-scrollbar-track
-		{
-  			opacity: 0;
-		}
-  	/* Handle */
-	::-webkit-scrollbar-thumb 
-		{
-  			opacity: 0;
-		}
+	#skillsDispositions
+	{
+		display: flex;
+		flex-direction: row;
+	}
+	
 	/*Footer Configuration*/
 	footer
 		{
 			background: rgb(20,41,73);
 			width: 100%;
-			height: 30%;
-			max-height:250px; 
-			overflow: hidden;
+			min-height: 30%;
+			max-height: 250px;
 			color: #fff;
 			display: flex;
 			flex-direction: column;
-			align-items:center;
+			align-items:center;     
 		}
 	footer h1 
 		{
@@ -166,7 +151,7 @@
 			display: flex;
 		}
 
-
+ /*	
 	footer aside 
 	{
 	    padding: 0 30% 0 0;
@@ -177,5 +162,5 @@
 	 padding: 0 20% 0 0;
 	}
 	
-
+*/
 }
