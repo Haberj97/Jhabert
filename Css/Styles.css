@@ -108,9 +108,7 @@
 		{
 			background-color: rgb(116,81,235);
 			width: 100%;
-			height: auto;
-			min-height:30%;
-			max-height:33%;
+			height:230px;
 			color:#FFF;
 			overflow: hidden;
 			display: flex;
