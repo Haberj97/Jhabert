@@ -22,7 +22,12 @@
 			background-color: #39efa9;
 		}
 
-
+	.ResponsiveImg
+		{
+			max-width : 100%;
+			height: auto;
+			display: block;
+		}
 	h1 
 
 	{
@@ -44,119 +49,16 @@
 		list-style-type: none;
 	}
 
-
-
-
-
-
-
-	/*Header Configuration*/
-	header
-		{
-			background-color: rgb(116,81,235);
-			width: 100%;
-			min-height:210px;
-			max-height: 230px;
-			color:#FFF;
-			overflow: hidden;
-			display: flex;
-			justify-content: center;
-	 		align-items: center;
-	 		padding: 0px;
-	 		margin: 0px;
-	 
-		}
-
-
-	#PrincipalTitle
-		{
-			margin-right: 15%;
-			height: auto;
-		}
-	header h1
-		{
-			margin : 0 0 0 0;
-			padding: 0% 0 0 5%;
-		}
-	header h2
-		{
-			margin : 0 0 0 0;
-			padding: 0 0 0 5%;
-		}
-	header p
-		{
-			font-weight: normal;
-			padding: 0 0 0 0;
-			margin : 10% 0 0% 0%;
-		}
-
-
-
-	
-	/*Footer Configuration*/
-	footer
-		{
-			background: rgb(20,41,73);
-			width: 100%;
-			min-height:210px;
-			max-height: 230px;
-			color: #fff;
-			display: flex;
-			flex-direction: column;
-			align-items:center;
-			justify-content: center; 
-		}
-	footer h1 
-		{
-			font-size:1.3em;
-			margin: 0 0 0 0;
-		}
-
-	footer p 
-		{
-			font-size:0.8em;
-			margin: 0 0 2% 0;
-			padding: 0 0 0 0;
-		}
-
-	#Links 
-
-		{
-			margin: 0;
-			display: flex;
-		}
-
- 
-	footer aside 
-	{
-	    padding: 0 30% 0 0;
-	}
-
-	#FooterTitle
-	{
-	 padding: 0 20% 0 0;
-	}
-	
-}
-
-@media(min-width: 1388px) 
-
-
-{	/*Principals elements*/
-	.ResponsiveImg
-		{
-			max-width : 100%;
-			height: auto;
-			display: block;
-
-
 	/* Contained configutation */
+
 	#Contained
 		{
-			width: 100%;
 			height: auto;
+			width: 100%
+			max-width: 1200px;
+			margin: auto;
 			padding: 0px;
-			margin: 0px;
+			
 		}
 	.ContainedItems 
 		{
@@ -187,8 +89,9 @@
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
+			
 			overflow: hidden;
-			text-align: center;
+			text-align: left;
 		}
 	#skillsDispositions
 	{
@@ -198,86 +101,117 @@
 	}
 
 
-		}
-}
-
-
-
-
-/*Taget For tab design* @media(min-width: 768px) and (max-width: 1388px)
-{
-
-}/ 
 
 
 
 
 
-/*Taget For Phone design*/ 
-
-@media (min-width: 1px) (max-width: 1024px)
-
-{
-		/*Principals elements*/
-		.ResponsiveImg
+	/*Header Configuration*/
+	header
 		{
-			max-width : 100%;
-			height: auto;
-			display: none;
-		}
-		/*Principals elements*/
-	.ResponsiveImg
-		{
-			max-width : 100%;
-			height: auto;
-			display: block;
-
-
-	/* Contained configutation */
-	#Contained
-		{
+			background-color: rgb(116,81,235);
 			width: 100%;
+			min-height:210px;
+			max-height: 230px;
+			color:#FFF;
+			overflow: hidden;
+	 		padding: 0px;
+	 		margin: 0px;
+	 
+		}
+
+
+	#PrincipalTitle
+		{
+			margin-right: 15%;
 			height: auto;
+		}
+	#HeaderBlock 
+		{
+			height: auto;
+			width: 100%
+			max-width: 1200px;
+			margin: auto;
 			padding: 0px;
-			margin: 0px;
-		}
-	.ContainedItems 
-		{
-			width: 100%;
-			height: auto;
 			display: flex;
-			flex:1;
+			justify-content: center;
+	 		align-items: center;
+		}
+	header h1
+		{
+			margin : 0 0 0 0;
+			padding: 0% 0 0 5%;
+		}
+	header h2
+		{
+			margin : 0 0 0 0;
+			padding: 0 0 0 5%;
+		}
+	header p
+		{
+			font-weight: normal;
+			padding: 0 0 0 0;
+			margin : 10% 0 0% 0%;
 		}
 
-	.ItemsLogos
+
+
+	
+	/*Footer Configuration*/
+	footer
 		{
-			display: none;
-			height:0px;
-			width:0px;
-		}
-	.LogoStyleBloc
-		{
-			width: 0%;
-			height: 0%;
-		}
-	.TextStyleBloc
-		{
+			background: rgb(20,41,73);
 			width: 100%;
+			min-height:210px;
+			max-height: 230px;
+			color: #fff;
+			
+		}
+
+	#FooterBlock
+		{	
 			height: auto;
+			width: 100%
+			max-width: 1200px;
+			margin: auto;
+			padding-top: 0;
 			display: flex;
 			flex-direction: column;
-			justify-content: center;
-			overflow: hidden;
-			text-align: center;
+			align-items:center;
+			justify-content: center; 
+		}	
+	footer h1 
+		{
+			font-size:1.3em;
+			margin: 20% 0 0 0;
 		}
-	#skillsDispositions
+
+	footer p 
+		{
+			font-size:0.8em;
+			margin: 0 0 5% 0;
+			padding: 0 0 0 0;
+		}
+
+	#Links 
+
+		{
+			margin: 0;
+			display: flex;
+		}
+
+ 
+	footer aside 
 	{
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
+	    padding: 0 15% 0 0;
 	}
 
-
-		}
+	#FooterTitle
+	{
+	 padding: 0 20% 0 0;
+	}
 	
 }
+
+
+
