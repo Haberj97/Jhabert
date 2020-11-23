@@ -22,12 +22,7 @@
 			background-color: #39efa9;
 		}
 
-	.ResponsiveImg
-		{
-			max-width : 100%;
-			height: auto;
-			display: block;
-		}
+
 	h1 
 
 	{
@@ -69,8 +64,8 @@
 	.ItemsLogos
 		{
 			display: block;
-			height:150px;
-			width: 150px;
+			height:auto;
+			width: auto;
 		}
 	.LogoStyleBloc
 		{
@@ -193,15 +188,41 @@
 	
 }
 
+@media(min-width: 1388px) 
 
-@media screen and  
+
+{	/*Principals elements*/
+	.ResponsiveImg
+		{
+			max-width : 100%;
+			height: auto;
+			display: block;
+		}
+}
 
 
-@media only screen and (max-width:1024px)
+
+
+/*Taget For tab design*/ 
+
+@media(min-width: 768px) and (max-width: 1388px)
+{
+
+}
+
+
+
+/*Taget For Phone design*/ 
+
+@media (max-width: 767px)
 
 {
-	img 
-	{
-		display: none;
-	}
+		/*Principals elements*/
+		.ResponsiveImg
+		{
+			max-width : 100%;
+			height: auto;
+			display: none;
+		}
+	
 }
