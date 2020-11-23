@@ -196,15 +196,11 @@
 	#Links 
 
 		{
-			margin: 0;
+			margin: 0 20% 0 0 ;
 			display: flex;
 		}
 
  
-	footer aside 
-	{
-	    padding: 0 15% 0 0;
-	}
 
 	#FooterTitle
 	{
@@ -214,4 +210,21 @@
 }
 
 
+@media all and (max-width: 1200px)
+{
+	h1 
 
+	{
+		font-size: 2.8em;
+	}
+
+	h2 
+	{
+		font-size: 2.3em;
+		text-align: left;
+	}	
+	p
+	{
+		font-size: 2em;
+	}
+}
