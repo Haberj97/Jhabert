@@ -77,7 +77,7 @@
 	/* Contained configutation */
 	#Contained
 		{
-			height: 100%;
+			height: auto;
 			max-width: 1200px;
 			padding: 0;
 			margin:auto;
@@ -88,7 +88,6 @@
 			width: 100%;
 			height: auto;
 			display: flex;
-			flex:1;
 		}
 	.ItemsLogos
 		{
