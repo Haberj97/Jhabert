@@ -3,25 +3,52 @@
 @media all
 
 {
-
-	/*Principals elements*/
+	/*Principals elements*/	
+	@font-face 
+		{
+    		font-family: 'alex_brushregular';
+    		src: url('../Fonts/AlexBrush/alexbrush-regular-webfont.ttf') ;
+    		src: url('../Fonts/AlexBrush/alexbrush-regular-webfont.woff2') format('woff2'),
+         	url('../Fonts/AlexBrush/alexbrush-regular-webfont.woff') format('woff');
+    		font-weight: normal;
+    		font-style: normal;
+    	}	
+    @font-face 
+    	{
+    		font-family: 'open_sansbold';
+    		src: url('../Fonts/OpenSans-Bold/opensans-bold-webfont.ttf'); 
+    		src: url('../Fonts/OpenSans-Bold/opensans-bold-webfont.woff2') format('woff2'),
+         	url('../Fonts/OpenSans-Bold/opensans-bold-webfont.woff') format('woff');
+    		font-weight: normal;
+    		font-style: normal;
+		}
+	@font-face 
+		{
+    		font-family: 'open_sansregular';
+    		src: url('../Fonts/OpenSans-Regular/opensans-regular-webfont.tff');
+    		src: url('../Fonts/OpenSans-Regular/opensans-regular-webfont.woff2') format('woff2'),
+         	url('../Fonts/OpenSans-Regular/opensans-regular-webfont.woff2') format('woff');
+    		font-weight: normal;
+    		font-style: normal;
+		}	
 	html, body 
 		{
 			margin : 0;
 			padding : 0;
 			height:100%;
+			
 		}
 	#MainWrapper
 		{	
 			height:100%;
 			display: flex;
 			flex-direction: column;
+			font-family: 'open_sansregular','Arial',sans-serif ,serif;
 		}
 	mark
 		{
 			background-color: #39efa9;
 		}
-
 	.ResponsiveImg
 		{
 			max-width : 100%;
@@ -29,28 +56,29 @@
 			display: block;
 		}
 	h1 
-
-	{
-		font-size: 1.8em;
-	}
-
+		{
+			font-size: 2.1em;
+		}
 	h2 
-	{
-		font-size: 1.3em;
-		text-align: left;
-	}	
+		{
+			font-size: 1.5em;
+			text-align: left;
+		}	
 	p
-	{
-		font-size: 1em;
-	}
-
+		{
+			font-size: 1.3em;	
+		}
 	ul 
+		{
+			list-style-type: none;
+		}
+
+	strong 
 	{
-		list-style-type: none;
+		font-family: 'open_sansbold';
 	}
 
 	/* Contained configutation */
-
 	#Contained
 		{
 			height: auto;
@@ -67,7 +95,6 @@
 			display: flex;
 			flex:1;
 		}
-
 	.ItemsLogos
 		{
 			display: block;
@@ -94,18 +121,11 @@
 			text-align: left;
 		}
 	#skillsDispositions
-	{
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-	}
-
-
-
-
-
-
-
+		{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
 	/*Header Configuration*/
 	header
 		{
@@ -117,10 +137,7 @@
 			overflow: hidden;
 	 		padding: 0px;
 	 		margin: 0px;
-	 
 		}
-
-
 	#PrincipalTitle
 		{
 			margin-right: 15%;
@@ -141,6 +158,7 @@
 		{
 			margin : 0 0 0 0;
 			padding: 0% 0 0 5%;
+			font-family: 'alex_brushregular','Arial',sans-serif ,serif;
 		}
 	header h2
 		{
@@ -151,12 +169,8 @@
 		{
 			font-weight: normal;
 			padding: 0 0 0 0;
-			margin : 10% 0 0% 0%;
-		}
-
-
-
-	
+			margin : 2% 0 0% 0%;
+		}	
 	/*Footer Configuration*/
 	footer
 		{
@@ -164,10 +178,8 @@
 			width: 100%;
 			min-height:210px;
 			max-height: 230px;
-			color: #fff;
-			
+			color: #fff;			
 		}
-
 	#FooterBlock
 		{	
 			height: auto;
@@ -185,46 +197,22 @@
 			font-size:1.3em;
 			margin: 20% 0 0 0;
 		}
-
 	footer p 
 		{
 			font-size:0.8em;
 			margin: 0 0 5% 0;
 			padding: 0 0 0 0;
 		}
-
 	#Links 
 
 		{
 			margin: 0 20% 0 0 ;
 			display: flex;
 		}
-
- 
-
 	#FooterTitle
-	{
-	 padding: 0 20% 0 0;
-	}
-	
+		{
+		 	padding: 0 20% 0 0;
+		}	
 }
 
 
-@media screen
-{
-	h1 
-
-	{
-		font-size: 12px;
-	}
-
-	h2 
-	{
-		font-size: 8px;
-		text-align: left;
-	}	
-	p
-	{
-		font-size: 5px;
-	}
-}
