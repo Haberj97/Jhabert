@@ -77,24 +77,25 @@
 	/* Contained configutation */
 	#Contained
 		{
-			flex:1;
+			height: 100%;
 			max-width: 1200px;
 			padding: 0;
 			margin:auto;
-			
+			display: block;
 			
 		}
 	.ContainedItems 
 		{
 			width: 100%;
-			height: 100%;
+			height: auto;
 			display: flex;
+			flex:1;
 		}
 	.ItemsLogos
 		{
 			display: block;
-			height:auto;
-			width: 100%;
+			height:100px;
+			width: 100px;
 		}
 	.LogoStyleBloc
 		{
@@ -139,7 +140,8 @@
 		}
 	#HeaderBlock 
 		{
-			height: 100%;
+			height: auto;
+			width: 100%
 			max-width: 1200px;
 			margin: auto;
 			padding: 0px;
@@ -171,24 +173,24 @@
 			width: 100%;
 			min-height:210px;
 			max-height: 230px;
-			color: #fff;
-			padding: 0;
-			margin: 0;			
+			color: #fff;			
 		}
 	#FooterBlock
 		{	
 			height: 100%;
+			width: 100%
 			max-width: 1200px;
+			margin: auto;
+			padding: 0;
 			display: flex;
 			flex-direction: column;
 			align-items:center;
-			justify-content: center;
-			margin: auto; 
+			justify-content: center; 
 		}	
 	footer h1 
 		{
 			font-size:1.5em;
-			margin: 15% 0 0 0;
+			margin: 20% 0 0 0;
 		}
 	footer p 
 		{
