@@ -184,7 +184,7 @@
 			display: flex;
 			flex-direction: column;
 			justify-content: center; 
-			align-items: flex-start;
+			align-items:center;
 		}	
 	footer h1 
 		{
@@ -200,12 +200,14 @@
 	#Links 
 
 		{
-			margin: 0 0 0 5% ;
+			margin: 0 50% 0 0;
+			padding: 0;
 			display: flex;
 		}
 	#FooterTitle
 		{
-		 	padding: 0 0 0 5%;
+		 	margin: 0 50% 0 0;
+		 	padding: 0;
 		}	
 
 
