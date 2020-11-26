@@ -50,6 +50,30 @@
 			max-width : 100%;
 			height: auto;
 			display: block;
+			margin-left: 10%;
+		}
+
+	.SplitBlock
+		{	
+			width: 50%;
+			display:flex;
+			flex-direction: column;
+
+			justify-content: center;
+			padding: 0;
+			margin: 0 0 0 5%;
+		}
+	.CreatecenteredBlock
+		{	
+			height: 100%;
+			width: 100%;
+			max-width: 1200px;
+			margin: auto;
+			padding: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
 		}
 	h1 
 		{
@@ -73,6 +97,7 @@
 		{
 			font-family: 'open_sansbold';
 		}
+
 
 	/* Contained configutation */
 	#Contained
@@ -174,18 +199,7 @@
 			min-height: 220px;
 			color: #fff;			
 		}
-	#FooterBlock
-		{	
-			height: 100%;
-			width: 100%;
-			max-width: 1200px;
-			margin: auto;
-			padding: 0;
-			display: flex;
-			flex-direction: column;
-			justify-content: center; 
-			align-items:center;
-		}	
+	
 	footer h1 
 		{
 			font-size:1.5em;
@@ -200,14 +214,17 @@
 	#Links 
 
 		{
-			margin: 0 50% 0 0;
+			margin: 0 ;
 			padding: 0;
+			align-content: flex-start;
 			display: flex;
+
 		}
 	#FooterTitle
 		{
-		 	margin: 0 50% 0 0;
+		 	margin: 0 ;
 		 	padding: 0;
 		}	
+
 
 
