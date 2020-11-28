@@ -110,10 +110,13 @@
 	#Contained
 		{
 			flex: 1
+			width: 100%;
 			max-width: 1200px;
 			padding: 0;
 			margin:auto;
 			display: block;
+			justify-content: center;
+			background-color: red;
 			
 		}
 	.ContainedItems 
