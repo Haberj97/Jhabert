@@ -45,6 +45,16 @@
 			flex-direction: column;
 			
 		}
+	.CreatecenteredBlock
+		{	
+			height: 100%;
+			width: 100%;
+			max-width: 1200px;
+			margin: auto;
+			padding: 0;
+			display: flex;
+			align-items: center;
+		}	
 		
 	mark
 		{
@@ -162,16 +172,7 @@
 			justify-content: center;
 	 		align-items: center;
 		}
-	.CreatecenteredBlock
-		{	
-			height: 100%;
-			width: 100%;
-			max-width: 1200px;
-			margin: auto;
-			padding: 0;
-			display: flex;
-			align-items: center;
-		}
+
 	#LeftSplitBlockHeader
 		{	
 			width: 70%;
