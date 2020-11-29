@@ -41,6 +41,8 @@
 			height:100%;
 			margin:0;
 			padding:0;
+			display: flex;
+			flex-direction: column;
 			
 		}
 		
@@ -49,50 +51,21 @@
 			background-color: #39efa9;
 		}
 
-	.ResponsiveImg
-		{
-			max-width : 100%;
-			height: auto;
-			display: block;
-			margin-left: 30%;
-		}
-
-	.SplitBlock
-		{	
-			width: 50%;
-			display:flex;
-			flex-direction: column;
-			justify-content: center;
-			padding: 0;
-			margin: 0 0 0 5%;
-		}
-	.CreatecenteredBlock
-		{	
-			height: 100%;
-			width: 100%;
-			max-width: 1200px;
-			margin: auto;
-			padding: 0;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-		}
 
 
-		
 
 	h1 
 		{
-			font-size: 2.1em;
+			font-size: 2.5em;
 		}
 	h2 
 		{
-			font-size: 1.5em;
+			font-size: 2.0em;
 			text-align: left;
 		}	
 	p
 		{
-			font-size: 1.3em;	
+			font-size: 1.8em;	
 		}
 	ul 
 		{
@@ -189,17 +162,54 @@
 			justify-content: center;
 	 		align-items: center;
 		}
-		
+	.CreatecenteredBlock
+		{	
+			height: 100%;
+			width: 100%;
+			max-width: 1200px;
+			margin: auto;
+			padding: 0;
+			display: flex;
+			align-items: center;
+		}
+	#LeftSplitBlockHeader
+		{	
+			width: 70%;
+			display:flex;
+			flex-direction: column;
+			justify-content: center;
+			padding: 0;
+			margin: 0 0 0 50px;
+		}
+	#RightSplitBlockHeader
+		{	
+			width: 30%;
+			display:flex;
+			flex-direction: column;
+			justify-content: center;
+			padding: 0;
+			margin: 0 50px 0 0;
+		}
+	.ResponsiveImg
+		{
+			max-width : 100%;
+			height: auto;
+			display: block;
+			
+		}
+
 	header h1
 		{
 			margin : 0 0 0 0;
 			padding: 0% 0 0 5%;
 			font-family: 'alex_brushregular','Arial',sans-serif ,serif;
+			font-size: 50px;
 		}
 	header h2
 		{
 			margin : 0 0 0 0;
 			padding: 0 0 0 5%;
+			font-size: 30px;
 		}
 	header p
 		{
@@ -215,17 +225,21 @@
 			width: 100%;
 			min-height: 220px;	
 			color: #fff;
-			margin-bottom: auto;			
+			display: flex;
+			padding: 0;
+			margin: 0;
+			
+					
 		}
 	
 	footer h1 
 		{
-			font-size:1.5em;
-			margin: 10% 0 0 0;
+			font-size:35px;
+			margin: 50px 0 0 0%;
 		}
 	footer p 
 		{
-			font-size:1.2em;
+			font-size:30px;
 			margin: 0 0 5% 0;
 			padding: 0 0 0 0;
 		}
@@ -234,15 +248,37 @@
 		{
 			margin: 0 ;
 			padding: 0;
-			align-content: flex-start;
+			padding-left: 50px;
 			display: flex;
+			align-content: flex-start;
 
 		}
 	#FooterTitle
 		{
 		 	margin: 0 ;
 		 	padding: 0;
+		 	margin-left: 50px;
 		}
+	#leftSplitBlockFooter
+	{
+			width: 80%;
+			display:flex;
+			flex-direction: column;
+			justify-content: center;
+			padding: 0 0 0 0;
+			margin: 0 0 0 5%;
+	}
+	#rightSplitBlockFooter
+	{
+			width: 20%;
+			display:flex;
+			flex-direction: column;
+			justify-content: center;
+			padding: 0;
+			margin: 0 0 0 5%;
+	}
+
+
 	
 }
 
